@@ -1,45 +1,27 @@
 {
-  "name": "find-my-next-favourite-song",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
+  "name": "nelson",
+  "version": "1.0.0",
+  "description": "Spotify recommendations jukebox",
+  "main": "server.js",
   "dependencies": {
-    "core-js": "^3.7.0",
-    "vue": "^2.6.11",
-    "vue-router": "^3.4.9",
-    "vue-scrollto": "^2.20.0",
-    "vuex": "^3.5.1"
+    "express": "^4.15.4",
+    "querystring": "^0.2.0",
+    "request": "^2.81.0"
   },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.8",
-    "@vue/cli-plugin-eslint": "^4.5.8",
-    "@vue/cli-service": "^4.5.8",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:arirawr/nelson.git"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  "keywords": [
+    "spotify",
+    "music",
+    "recommendations"
+  ],
+  "author": "Arielle Vaniderstine",
+  "license": "ISC"
 }
